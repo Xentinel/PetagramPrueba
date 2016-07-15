@@ -16,6 +16,7 @@
         android:layout_above="@+id/rvListaMascotas"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:elevation="5dp"
         android:layout_marginRight="7dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="7dp" />
