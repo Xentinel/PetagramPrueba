@@ -6,4 +6,7 @@
     <string name="title_activity_contacto">Contacto</string>
     <string name="nombreDesarrollador">Julio César Romero Pérez</string>
     <string name="desarolladopor">Desarrollado por:</string>
+    <string name="mailayuda">email@ejemplo.com</string>
+    <string name="nombre_ejemplo">Nombre</string>
+    <string name="escribe">Escribe un correo</string>
 </resources>

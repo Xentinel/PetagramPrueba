@@ -7,4 +7,55 @@
     <include android:id="@+id/actionBarMain"
         layout="@layout/actionbar">
     </include>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actionBarMain"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/input_name_layout">
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_ejemplo" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_name_layout"
+        android:padding="10dp"
+        android:id="@+id/input_email_layout">
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mailayuda" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_email_layout"
+        android:padding="10dp"
+        android:id="@+id/input_message_layout">
+        <EditText
+            android:id="@+id/input_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/escribe" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enviarMail"
+        android:text="Enviar Mail"
+        android:theme="@style/boton"
+        android:elevation="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
 </RelativeLayout>
