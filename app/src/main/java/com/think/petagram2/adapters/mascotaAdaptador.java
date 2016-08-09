@@ -1,4 +1,4 @@
-package com.think.petagram2;
+package com.think.petagram2.adapters;
 
 import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
@@ -9,6 +9,9 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.think.petagram2.R;
+import com.think.petagram2.pojo.mascota;
 
 import java.util.ArrayList;
 

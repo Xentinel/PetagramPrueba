@@ -6,6 +6,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
+import com.think.petagram2.adapters.mascotaAdaptador;
+import com.think.petagram2.pojo.mascota;
+
 import java.util.ArrayList;
 
 public class DetalleMascota extends AppCompatActivity {

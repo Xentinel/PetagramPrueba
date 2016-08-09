@@ -8,5 +8,6 @@
     <dimen name="cvTextSize">20dp</dimen>
     <dimen name="tamanioHuesoBco">32dp</dimen>
     <dimen name="cvPaddingHorizontalLayout">1dp</dimen>
-
+    <dimen name="imgAcercaDe">200dp</dimen>
+    <dimen name="bordeImgAcerca">10dp</dimen>
 </resources>

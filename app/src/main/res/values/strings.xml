@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">Petagram2</string>
+    <string name="app_name">Petagram</string>
     <string name="nombreActiv2">Favoritos</string>
+    <string name="menuAcerca">Acerca de</string>
+    <string name="menuCont">Contacto</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="nombreDesarrollador">Julio César Romero Pérez</string>
+    <string name="desarolladopor">Desarrollado por:</string>
 </resources>

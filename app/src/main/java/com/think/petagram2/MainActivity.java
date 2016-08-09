@@ -6,8 +6,13 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+
+import com.think.petagram2.adapters.mascotaAdaptador;
+import com.think.petagram2.pojo.mascota;
 
 import java.util.ArrayList;
 
@@ -20,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar actionBar = (Toolbar) findViewById(R.id.actionBarMain);
         setSupportActionBar(actionBar);
+        getSupportActionBar().setTitle(R.string.app_name);
         crearMascotas();
         listaMascotas = (RecyclerView)findViewById(R.id.rvListaMascotas);
         LinearLayoutManager llm = new LinearLayoutManager(this);
@@ -36,6 +42,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.mPAcercade:
+                //intent Acerca de
+                Intent i = new Intent(this,AcercaDe.class);
+                startActivity(i);
+                break;
+            case R.id.mPContacto:
+                //intent Contacto
+                Intent intent = new Intent(this,Contacto.class);
+                startActivity(intent);
+                break;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_principal,menu);
+        return true;
+    }
+
     private void crearMascotas()
     {
         mascotas = new ArrayList<>();

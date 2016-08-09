@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.think.petagram2.AcercaDe">
+    <include android:id="@+id/actionBarMain"
+        layout="@layout/actionbar">
+    </include>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="@dimen/imgAcercaDe"
+        android:layout_height="@dimen/imgAcercaDe"
+        android:id="@+id/imgAcercaDe"
+        android:src="@drawable/unholy"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="@dimen/bordeImgAcerca"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="@color/colorAccent"
+        android:layout_below="@+id/actionBarMain"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/desarolladopor"
+        android:id="@+id/textView"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/imgAcercaDe"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nombreDesarrollador"
+        android:id="@+id/textView2"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

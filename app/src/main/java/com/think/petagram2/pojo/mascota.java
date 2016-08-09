@@ -1,4 +1,4 @@
-package com.think.petagram2;
+package com.think.petagram2.pojo;
 
 /**
  * Created by julio on 14/07/2016.
